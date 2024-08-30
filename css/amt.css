@@ -334,3 +334,12 @@ table table[class~="x-sli-5-0"] {width: 100%; }
  .x--inherit-background-color {background-color: inherit; }
  .x--br-clear {font-size: 0pt; line-height: 0pt; clear: both; }
 body{    font-family: Roboto !important;} 
+
+.sub-main-topic{
+   margin-left: 40px !important;
+   font-weight: 700 !important;
+   font-size: 14px !important;
+}
+.main-topic{
+   font-size: 16px !important;
+}
