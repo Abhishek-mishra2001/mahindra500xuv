@@ -1,0 +1,163 @@
+* body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mg-motor-container {
+    border: 1px solid black;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+.mg-motor-inner-card {
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+  .mg-motor-card {
+    width: 100px;
+    height: auto;
+  }
+ 
+  .mg-motor-container .warning {
+    color: red;
+    font-weight: bold;
+  }
+
+  .navbar-brand .img-responsive{
+        width: 335px;
+        height: 120px;
+        max-height: 150px;
+  }
+
+  #navbar-collapse{
+    top: 120px !important;
+  }
+
+  .mg-motor-inner-card ul {
+    margin: 2em;
+    padding: 0;
+    
+    li {
+      margin: 0;
+      margin-bottom: 1em;
+      padding-left: 1.5em;
+      /* position: relative; */
+      
+      /* &:after {
+        content: '';
+        height: .4em;
+        width: .4em;
+        background: #000;
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        top: .25em;
+        left: 0;
+      } */
+      
+    } 
+    
+  }
+  .mg-motor-inner-card li {
+    text-align: left;
+}
+.foreword {
+    background-color: #e0ffff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #008080;
+    margin-bottom:  30px;
+    margin-top: 30px;
+}  
+
+
+.card-notice-containor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+  
+  .card-notice-containor .card {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .card-notice-containor .card-header {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-notice-containor .card-header i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .card-notice-containor .card-header span {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.caution .card-header span {
+    color: #000 !important;
+}
+  
+  .card-notice-containor .card-body {
+    color: black;
+    padding: 20px;
+}
+  
+  .card-notice-containor .note .card-header {
+    background-color: #00a6ff;
+  }
+  
+  .card-notice-containor .warning .card-header {
+    background-color: #ff9933;
+  }
+  
+  .card-notice-containor .caution .card-header {
+    background-color: #ffff00;
+  }
+  
+  .card-notice-containor .danger .card-header {
+    background-color: #ff0000;
+  }
+
+  .topic-containor {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .topic-containor .item span{
+        font-size: 20px;
+        font-weight: 700;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #b8e2e5;
+    margin-bottom: 5px;
+  }
+  
+  .number {
+    background-color: #214653;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .inner-note {
+    display: block !important;
+  }
+
