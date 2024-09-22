@@ -50,14 +50,10 @@ h1,h2,h3,h4,h5,h6,p,span,div{
     font-weight: bold;
   }
 
-  .navbar-brand .img-responsive{
-        width: 335px;
-        height: 120px;
-        max-height: 150px;
-  }
+  
 
   #navbar-collapse{
-    top: 120px !important;
+    top: 120px;
   }
 
   .mg-motor-inner-card ul {
