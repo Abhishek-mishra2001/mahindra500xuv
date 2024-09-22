@@ -52,9 +52,9 @@ h1,h2,h3,h4,h5,h6,p,span,div{
 
   
 
-  #navbar-collapse{
-    top: 120px;
-  }
+  #navbar-collapse {
+    top: 123px;
+}
 
   .mg-motor-inner-card ul {
     margin: 2em;
@@ -85,31 +85,32 @@ h1,h2,h3,h4,h5,h6,p,span,div{
     text-align: left;
 }
 .foreword {
-    background-color: #e0ffff;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    border: 2px solid #008080;
-    margin-bottom:  30px;
-    margin-top: 30px;
-}  
+  background-color: #2c3f46;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #2c3f46;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+}
 
 
 .card-notice-containor {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 25px;
+  display: flex;
+  margin-top: 25px;
 }
   
-  .card-notice-containor .card {
-    width: 300px;
-    margin-bottom: 20px;
-    padding: 0px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
+.card-notice-containor .card {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 30px;
+}
   
   .card-notice-containor .card-header {
     align-items: center;
@@ -132,9 +133,10 @@ h1,h2,h3,h4,h5,h6,p,span,div{
     color: #000 !important;
 }
   
-  .card-notice-containor .card-body {
-    color: black;
-    padding: 20px;
+.card-notice-containor .card-body {
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
 }
   
   .card-notice-containor .note .card-header {
@@ -202,7 +204,7 @@ h1,h2,h3,h4,h5,h6,p,span,div{
   padding: 5px;
 }
 .manual-list a {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   padding-left: 20px;
@@ -213,4 +215,33 @@ h1,h2,h3,h4,h5,h6,p,span,div{
 }
 .active-class{
   display: block;
+}
+.manual-area li{
+  font-size: 16px;
+}
+#forward .x-p-8-0,#electric-vehicle .x-p-8-0{
+  font-size: 16px;
+}
+i {
+  font-style: italic !important;
+}
+#electric-vehicle .x-title-2-0{
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col img {
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+}
+.overview{
+  color: #c00510;
+}
+.x-p-8-0{
+  font-size: 16px;
 }
