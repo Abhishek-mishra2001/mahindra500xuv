@@ -1,6 +1,32 @@
+@font-face {
+  font-family: 'aptos';
+  src: url('/fonts/aptos.woff') format('woff'),
+   url('/fonts/aptos-black.woff') format('woff'),
+  url('/fonts/aptos-black-italic.woff') format('woff'),
+  url('/fonts/aptos-bold.woff') format('woff'),
+  url('/fonts/aptos-extrabold.woff') format('woff'),
+  url('/fonts/aptos-black-italic.ttf') format('truetype'),
+  url('/fonts/aptos-bold.ttf') format('truetype'),
+  url('/fonts/aptos-extrabold.ttf') format('truetype'),
+  url('/fonts/aptos-black.ttf') format('truetype'),
+       url('/fonts/aptos.ttf') format('truetype'),
+       url('/fonts/aptos-italic.woff') format('woff'),
+  url('/fonts/aptos-light-italic.woff') format('woff'),
+  url('/fonts/aptos-light.woff') format('woff'),
+  url('/fonts/aptos-light.ttf') format('truetype'),
+  url('/fonts/aptos-italic.ttf') format('truetype'),
+  url('/fonts/aptos-light-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  font-family: 'aptos', sans-serif !important; /* Fallback to sans-serif */
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div{
+  font-family: 'aptos' !important;
+}
 
   .mg-motor-container {
     border: 1px solid black;
@@ -13,10 +39,11 @@
     border: 2px solid #000;
     border-radius: 25px;
 }
-  .mg-motor-card {
-    width: 100px;
-    height: auto;
-  }
+.mg-motor-card {
+  width: 100px;
+  height: auto;
+  padding-top: 20px;
+}
  
   .mg-motor-container .warning {
     color: red;
@@ -161,3 +188,33 @@
     display: block !important;
   }
 
+  .card-header img {
+    max-width: 298px;
+    width: 100%;
+}
+
+.navbar-collapse, .navbar-collapse.collapse {
+  background: #b8e2e5 !important;
+}
+
+.listitmmain {
+  /* padding: 0 15px; */
+  background-color: #2c3f46;
+  margin: 10px;
+  border: 1px solid #2c3f46;
+  border-radius: 15px;
+  padding: 5px;
+}
+.manual-list a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 20px;
+  display: block;
+}
+.listitms {
+  display: none;
+}
+.active-class{
+  display: block;
+}
