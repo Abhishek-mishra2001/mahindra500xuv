@@ -99,11 +99,11 @@ h1,h2,h3,h4,h5,h6,p,span,div{
 
 
 .card-notice-containor {
-  display: flex;
+  display: block;
   margin-top: 25px;
 }
 .card-custom {
-  display: flex;
+  display: block;
   margin-top: 25px;
 }
   
@@ -113,16 +113,15 @@ h1,h2,h3,h4,h5,h6,p,span,div{
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-right: 30px;
-  width: 50%;
+}
+.card-warning{
+  background-color: #f58634;
 }
 .card-custom .card-header {
   align-items: center;
   margin-bottom: 10px;
 }
-.card-custom .card-header img{
-    width: 100%;
-    max-width: 500px;
-}
+
 
 .card-custom .card-body{
   padding: 10px;
@@ -137,7 +136,6 @@ h1,h2,h3,h4,h5,h6,p,span,div{
 }
 
 .card-notice-containor .card {
-  width: 300px;
   margin-bottom: 20px;
   padding: 0px;
   border: 1px solid #ddd;
@@ -176,16 +174,12 @@ h1,h2,h3,h4,h5,h6,p,span,div{
     background-color: #00a6ff;
   }
   
-  .card-notice-containor .warning .card-header {
-    background-color: #ff9933;
-  }
-  
   .card-notice-containor .caution .card-header {
-    background-color: #ffff00;
+    background-color: #fff212;
   }
   
   .card-notice-containor .danger .card-header {
-    background-color: #ff0000;
+    background-color: #ed3237;
   }
 
   .topic-containor {
@@ -282,10 +276,22 @@ i {
     padding: 10px;
     margin: 10px;
 }
-.card-img .caution-img{
-  width: 100%;
-}
+
 .seat-cover{
   margin: 20px;
   padding: 20px;
+}
+.card-caution{
+  background-color: #fff212;
+}
+
+@media(max-width: 767px){
+  .row{
+    display: block;
+    text-align: center;
+  }
+  
+  .rsa-field{
+    padding: 20px;
+  }
 }
