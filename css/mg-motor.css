@@ -268,9 +268,7 @@ i {
 }
 
 .col img {
-  width: 250px;
-  padding: 20px;
-  margin: 20px;
+  width: 200px;
 }
 .overview{
   color: #c00510;
@@ -286,4 +284,8 @@ i {
 }
 .card-img .caution-img{
   width: 100%;
+}
+.seat-cover{
+  margin: 20px;
+  padding: 20px;
 }
