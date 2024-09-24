@@ -283,12 +283,34 @@ i {
 .card-caution{
   background-color: #fff212;
 }
-
+.mobile-banner{
+  display: none !important;
+}
 @media(max-width: 767px){
   .row{
     display: block;
     text-align: center;
-  }  
+  }
+  .img-responsive{
+    display: none !important;
+  }
+  .mobile-banner{
+    display: block !important;
+    background-color: #2c3f46;
+    max-width: 400px;
+    max-height: 130px;
+  } 
+  .navbar-header {
+    width: 100%;
+    background-color: #2c3f46;
+}
+header .menu-label{
+  float: none;
+}
+.owners-manual-header .navbar-brand{
+  margin-left: 40px;
+}
+  
 }
 .rsa-field{
   padding: 20px;
