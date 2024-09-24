@@ -288,9 +288,26 @@ i {
   .row{
     display: block;
     text-align: center;
-  }
-  
-  .rsa-field{
-    padding: 20px;
-  }
+  }  
+}
+.rsa-field{
+  padding: 20px;
+}
+.quality-group{
+  text-align: center;
+  border-bottom-color: #b8e2e5;
+  border-top-color: #b8e2e5;
+  background-color: #b8e2e5;
+}
+.other-positions{
+  border: none !important;
+  padding-right: 1px !important;
+  background-color: #b8e2e5;
+}
+.front-manager{
+  text-align: center;
+  background-color: #b8e2e5;
+}
+tr,th,td{
+  border-color: #b0b2b3;
 }
