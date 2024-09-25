@@ -297,7 +297,7 @@ i {
   .mobile-banner{
     display: block !important;
     background-color: #2c3f46;
-    max-width: 400px;
+    max-width: 310px;
     max-height: 130px;
   } 
   .navbar-header {
