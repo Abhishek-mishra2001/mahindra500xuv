@@ -233,7 +233,6 @@ h1,h2,h3,h4,h5,h6,p,span,div{
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  padding-left: 20px;
   display: block;
 }
 .listitms {
@@ -332,4 +331,19 @@ header .menu-label{
 }
 tr,th,td{
   border-color: #b0b2b3;
+}
+
+.manual-list .listitmmain span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.inner-sub-category{
+    font-size: 14px !important;
+    padding-left: 30px !important;
+    font-weight: normal !important;
 }
