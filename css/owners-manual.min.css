@@ -90,9 +90,7 @@ table th span, table td span{
 		margin-left:0 !important;
 		margin-right:0 !important;
 	}
-    #navbar-collapse {
-        top: 140px !important;
-    }
+   
 	
 	.x-table-1-0 {
 		overflow-x: auto;
