@@ -275,6 +275,7 @@ i {
   padding: 20px;
   margin: 10px 10px 10px 0px;
   border: 1px solid #c0c2c3;
+  max-height: 300px;
 }
 
 .seat-cover{
@@ -286,6 +287,14 @@ i {
 }
 .mobile-banner{
   display: none !important;
+}
+@media(min-width: 1020px){
+  .mg-shield-responsive .row{
+    display: none !important;
+  }
+  .card-top-containor .card {
+    margin: 10px;
+}
 }
 @media(max-width: 767px){
   .card-top-containor {
@@ -307,9 +316,18 @@ i {
   .section-column-two{
     padding-left:0px !important;
   }
-  .row{
-    display: block;
-    text-align: center;
+  .mg-shield-responsive .row{
+    display: flex !important;
+    margin: 20px;
+  }
+  .mg-shield-responsive .rsa-field{
+    padding: 10px;
+  }
+  .mg-shield-responsive .rsa-field img{
+    width: 150px;
+  }
+  .mg-shield{
+    display: none !important;
   }
   .img-responsive{
     display: none !important;
