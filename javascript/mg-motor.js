@@ -1,5 +1,4 @@
-$('.listitmmain > li').click(function(event) {
-    event.stopPropagation(); 
-    $(this).children('.listitms').slideToggle('slow'); 
-    $('.listitms').not($(this).children('.listitms')).slideUp('slow'); 
+$('.listitmmain').click(function(event) {
+    $(".listitms").removeClass("active-class");
+    $(this).find($(".listitms")).addClass("active-class"); 
 });
