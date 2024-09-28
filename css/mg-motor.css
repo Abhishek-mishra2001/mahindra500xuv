@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,h6,p,span,div{
 
 .card-notice-containor {
   display: block;
-  margin-top: 25px;
+  margin-top: 8pt;
 }
 .card-custom {
   display: block;
@@ -138,7 +138,6 @@ h1,h2,h3,h4,h5,h6,p,span,div{
   padding: 0px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-right: 30px;
 }
   
   .card-notice-containor .card-header {
@@ -261,17 +260,21 @@ i {
 .col img {
   width: 200px;
 }
-.overview{
+.overview {
   color: #c00510;
+  font-size: 20px;
+  padding: 0px !important;
+  margin: 8pt 0pt 0pt 0pt;
 }
 .x-p-8-0{
   font-size: 16px;
 }
-.inner-img{
+.inner-img {
   max-width: 300px;
-  width: 265px;
-    padding: 10px;
-    margin: 10px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px 10px 10px 0px;
+  border: 1px solid #c0c2c3;
 }
 
 .seat-cover{
@@ -297,8 +300,12 @@ i {
   }
   .section-column-col{
     width: 100% !important;
-    padding-left:0px !important;
+  }
+  .section-column-one{
     padding-right:0px !important;
+  }
+  .section-column-two{
+    padding-left:0px !important;
   }
   .row{
     display: block;
@@ -376,9 +383,10 @@ tr,th,td{
 }
 .section-column-col{
   width: 45%;
-  padding-right: 20px;
-  padding-left: 20px;
 }
-hr {
-  border-top: 1px solid #000 !important;
+.section-column-one{
+  padding-right: 20px;
+}
+.section-column-two{
+  padding-left: 20px;
 }
