@@ -469,3 +469,9 @@ tr,th,td{
 .address input {
   width: 100%;
 }
+.drive-indics table th{
+  background-color: #b8e2e5;
+}
+.table-scroll{
+  overflow-x:auto;
+}
