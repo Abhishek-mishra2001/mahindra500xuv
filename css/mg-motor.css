@@ -299,6 +299,10 @@ i {
     margin: 10px;
 }
 }
+.ac-charge {
+  display: flex;
+  justify-content: center;
+}
 @media(max-width: 767px){
   .card-top-containor {
     display: block !important;
@@ -356,7 +360,13 @@ header .menu-label{
 #overview,#know-your-electric-vehicle-main,#main-components,#safety-of-hv-systems,#emergency-situation,#battery-information,#common-terminologies,#important-safety-precautions,#safty-overview,#seats-protective-devices,#safty-front-seat,#safty-rear-seat,#safty-head-rest,#safty-seat-belt,#child-restraint-system,#child-restraint-system-overview,#supplementary-restraint-system,#supplementary-overview,#airbag-safety-tips,#airbag-deployment-conditions,#airbag-warning,#frequently-asked-questions,#brake-system,#electronic-brake-force-distribution-system,#electronic-stability-control,#electronic-parking-brake,#automatic-vehicle-hold,#emergency-brake,#steering-system,#electric-power-steering,#before-driving-your-ev,#ev-overview,#basic-operations,#charging-your-ev,#charging-overview,#identifying-the-need-of-charging,#requirements-for-charging-power-supply,#charging-preparation,#charge-operation-and-precautions,#charging-tips,#long-storage-guidelines,#opening-closing,#opening-closing-keys,#anti-theft-device-immobilizer-peps,#doors,#tailgate,#engine-hood,#driving-your-ev,#Pre-driving-safety-check,#control-devices,#starting-your-evs,#cruise-control,#driving-tips,#mirrors,#outside-rear-view-mirror,#inside-rear-view-mirror,#sun-visor,#vanity-mirror,#windows,#individual-switches,#automatic-window-closing-upon-vehicle-locking,#one-button-lowering-of-power-window,#one-button-rising-of-four-door-power-window,#anti-pinch-function-of-power-window,#initialization-learning-of-power-window,#window-motor-thermal-protection,#window-child-safety-lock,#temperature-control-system,#air-outlets,#air-distribution-modes,#ac-control-using-instrument-panel,#ac-button,#ventilation,#front-seat-ventilation,#instrument-panel,#front-overview,#front-instrument-cluster,#default-settings,#lighting,#exterior,#interior,#wireless-charger,#storage,#repair-overview,#emergency-breakdown,#jump-start,#towing,#maintenance,#vehicle-storage,#regular-checks,#technical-data,#periodic-maintenance,#new-vehicle-warranty,#roadside-assistance,#service-coupon {
   scroll-margin-top: -30px !important; 
 }
-  
+.ac-charge{
+  display: block;
+}
+.ac-charge .col {
+  text-align: center;
+  width: 100%;
+}
 }
 .rsa-field{
   padding: 20px;
