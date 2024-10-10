@@ -132,7 +132,7 @@ img[src="images/loading.svg"]{
 /* }		 */
 }
 .listitmmain{    padding: 0 15px;}
-.listitms { counter-reset: item;   padding-left: 15px; }
+.listitms { counter-reset: item; }
 .listitms li{ display: block;    margin: 0; }
 /* .listitms li:before { content: counters(item, ".") " "; counter-increment: item;    margin-right: 10px; } */
 .manual-list a.active-section{color:#fff;text-decoration: none}
