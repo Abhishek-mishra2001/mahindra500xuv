@@ -274,16 +274,22 @@ i {
 }
 .inner-img {
   max-width: 300px;
-  width: 300px;
+  width: 100%;
   padding: 20px;
   margin: 10px 10px 10px 0px;
-  border: 1px solid #c0c2c3;
+  border: 1px solid #ddd;
+  max-height: 300px;
+}
+.inner-img-no-border{
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 10px 10px 0px;
   max-height: 300px;
 }
 .big-car-img{
   padding: 20px;
   margin: 10px 10px 10px 0px;
-  border: 1px solid #c0c2c3;
   max-height: 360px;
 }
 .ac-charge .charger{
@@ -318,6 +324,7 @@ i {
   padding: 20px;
   margin: 10px 10px 10px 0px;
   max-width: 1000px;
+  border: 1px solid #ddd;
   width: 100%;
 }
 .air-outlet-img{
@@ -333,6 +340,7 @@ i {
     padding: 20px;
     margin: 10px 10px 10px 0px;
     max-width: 300px;
+    border: 1px solid #ddd;
     width: 100%;
   }
   .card-top-containor {
@@ -418,7 +426,7 @@ header .menu-label{
   background-color: #b8e2e5;
 }
 tr,th,td{
-  border-color: #b0b2b3;
+  border-color: #ddd;
 }
 
 .manual-list .listitmmain span {
@@ -460,7 +468,7 @@ tr,th,td{
 .underline {
   max-width: 900px;
   width: 100%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #ddd;
   margin: 5px 0px;
 }
 .signature {
@@ -490,7 +498,7 @@ tr,th,td{
 .dealership .box {
   width: 300px;
   height: 150px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   margin-top: 50px;
 }
 
@@ -501,10 +509,11 @@ tr,th,td{
 .model-table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 10px;
 }
 
 .model-table th, .model-table td {
-  border: 1px solid black;
+  border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
@@ -512,9 +521,7 @@ tr,th,td{
   width: 20px;
 }
 
-.model-table th {
-  background-color: #f2f2f2;
-}
+
 .address input {
   width: 100%;
 }
@@ -545,7 +552,7 @@ html {
 .periodic-maintenance-table{
   background-color: #58595b;
   color: #fff;
-  border-color: #58595b ;
+  border-color: #ddd ;
 }
 .innertable tr,.innertable tr th{
   background-color: #fff !important;
@@ -556,7 +563,7 @@ html {
 .periodic-maintenance-table th{
   background-color: #58595b;
   color: #fff;
-  border-color: #58595b ;
+  border-color: #ddd ;
 }
 .wear-glasses{
   width: 30px;
