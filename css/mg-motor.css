@@ -317,7 +317,8 @@ i {
 .air-outlet-img img{
   padding: 20px;
   margin: 10px 10px 10px 0px;
-  max-width: 500px;
+  max-width: 1000px;
+  width: 100%;
 }
 .air-outlet-img{
   text-align: center;
@@ -332,6 +333,7 @@ i {
     padding: 20px;
     margin: 10px 10px 10px 0px;
     max-width: 300px;
+    width: 100%;
   }
   .card-top-containor {
     display: block !important;
@@ -555,6 +557,9 @@ html {
   background-color: #58595b;
   color: #fff;
   border-color: #58595b ;
+}
+.wear-glasses{
+  width: 30px;
 }
 
 
