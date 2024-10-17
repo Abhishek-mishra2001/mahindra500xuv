@@ -274,7 +274,6 @@ i {
 }
 .inner-img {
   max-width: 300px;
-  width: 100%;
   padding: 20px;
   margin: 10px 10px 10px 0px;
   border: 1px solid #ddd;
@@ -282,7 +281,6 @@ i {
 }
 .inner-img-no-border{
   max-width: 300px;
-  width: 100%;
   padding: 20px;
   margin: 10px 10px 10px 0px;
   max-height: 300px;
