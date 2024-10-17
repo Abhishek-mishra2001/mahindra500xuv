@@ -569,4 +569,8 @@ html {
   width: 30px;
 }
 
-
+.charging-perameters th {
+  background-color: #d2d3d5;
+  text-align: center;
+  border: 2px solid #b0b2b4;
+}
