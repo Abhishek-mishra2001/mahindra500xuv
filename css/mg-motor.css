@@ -328,7 +328,7 @@ i {
 .air-outlet-img{
   text-align: center;
 }
-@media(max-width: 767px){
+@media(max-width: 999px){
   .ac-charge .charger{
     padding: 20px;
     margin: 10px 10px 10px 0px;
@@ -403,6 +403,15 @@ header .menu-label{
 .ac-charge .col {
   text-align: center;
   width: 100%;
+}
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1300px) {
+  header .menu-label {
+    background: url(../images/mobile-banner-two.jpg) #2c3f46 no-repeat right;
+    background-size: contain;
+    float: left;
+    width: 100%;
 }
 }
 .rsa-field{
